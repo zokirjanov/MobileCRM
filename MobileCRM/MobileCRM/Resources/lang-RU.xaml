@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileCRM.Resources.lang">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="authorization">Авторизация</x:String>
+            <x:String x:Key="back">&lt; Назад</x:String>
+            <x:String x:Key="input_email">Введите электронную почту</x:String>
+            <x:String x:Key="input_login">Введите логин</x:String>
+            <x:String x:Key="input_org">Введите название организации</x:String>
+            <x:String x:Key="input_passw">Введите пароль</x:String>
+            <x:String x:Key="input_phone">Введите телефонный номер</x:String>
+            <x:String x:Key="log_in">Войти</x:String>
+            <x:String x:Key="login">Логин</x:String>
+            <x:String x:Key="next">Далее</x:String>
+            <x:String x:Key="passw">Пароль</x:String>
+            <x:String x:Key="register">Зарегистрироваться</x:String>
+            <x:String x:Key="registration">Регистрация</x:String>
+            <x:String x:Key="remember_me">Запомнить меня</x:String>
+            <x:String x:Key="repeat_passw">Повторите пароль</x:String>
+            <x:String x:Key="supp_email">Введите действительную электронную почту</x:String>
+            <x:String x:Key="supp_login_chars">В поле Логин можно вводить только цифры и буквы Английского алфавита</x:String>
+            <x:String x:Key="supp_login_short">Логин слишком короткий</x:String>
+            <x:String x:Key="supp_org_chars">В поле Название Организации можно вводить только цифры и буквы Русского и Английского алфавитов</x:String>
+            <x:String x:Key="supp_org_short">Название организации слишком короткое</x:String>
+            <x:String x:Key="supp_phone">Введите действительный номер телефона</x:String>
+            <x:String x:Key="support_noise">Что-то там не правильно</x:String>
+            <x:String x:Key="supp_passw_alp">В поле Пароль можно вводить только цифры и буквы Английского алфавита</x:String>
+            <x:String x:Key="supp_passw_chars">Пароль должен содержать более не менее: 8 символов, одной заглавной буквы, одной строчной буквы</x:String>
+            <x:String x:Key="supp_passw_sim">Пароли должны совпадать</x:String>
+            <x:String x:Key="supp_passw_repeat">Введите пароль повторно</x:String>
+            <x:String x:Key="supp_registr">Пожалуйста проверьте введенные данные</x:String>
+            <x:String x:Key="supp_same_org">Организация с такой почтой уже существует. Введите другую почту или восстановате учетную запись</x:String>
+            <x:String x:Key="supp_fill_fields">Заполните все поля</x:String>
+            <x:String x:Key="supp_id_chars">В поле ID можно вводить только цифры</x:String>
+            <x:String x:Key="supp_id_incorr">Введенный ID неправильный</x:String>
+            <x:String x:Key="supp_login_incorr">Введенный Логин неправильный</x:String>
+            <x:String x:Key="supp_locked">Вы заблокированы</x:String>
+            <x:String x:Key="supp_passw_lock">Пароль неправильный. Вы превысили лимит попыток</x:String>
+            <x:String x:Key="supp_passw_incor1">Пароль неправильный. Осталось 1 попытка</x:String>
+            <x:String x:Key="supp_passw_incor2">Пароль неправильный. Осталось 2 попытки</x:String>
+            <x:String x:Key="lang">Язык</x:String>
+            <x:String x:Key="reg_success">Вы успешно зарегистрировались\nТеперь вы можете войти в личный кабинет и подтвердить почту для учетной записи</x:String>
+            <x:String x:Key="org">Организация</x:String>
+            <x:String x:Key="phone">Номер Телефона</x:String>
+            <x:String x:Key="email">Адрес электронной почты</x:String>
+            <x:String x:Key="enter">Ввод</x:String>
+            <x:String x:Key="exit">Выход</x:String>
+            <x:String x:Key="delete">Удалить</x:String>
+            <x:String x:Key="edit">Редактировать</x:String>
+            <x:String x:Key="name">Наименование</x:String>
+            <x:String x:Key="barcode">Баркод</x:String>
+            <x:String x:Key="quantity">Количество</x:String>
+            <x:String x:Key="discount">Скидка</x:String>
+            <x:String x:Key="category">Категория</x:String>
+            <x:String x:Key="subcategory">Подкатегория</x:String>
+            <x:String x:Key="piece">ШТУК</x:String>
+            <x:String x:Key="whosale">ОПТОМ</x:String>
+            <x:String x:Key="change">Изменить</x:String>
+
+            <x:String x:Key="main_menu_my_store">Мои магазины</x:String>
+            <x:String x:Key="main_menu_account">Личный кабинет</x:String>
+            <x:String x:Key="main_menu_users">Пользователи</x:String>
+            <x:String x:Key="main_menu_reports">Отчеты</x:String>
+            <x:String x:Key="main_menu_settings">Настройки</x:String>
+            <x:String x:Key="main_menu_add_nomenclature">Добавить номенклатуру</x:String>
+            <x:String x:Key="main_menu_create_nomenclature">Создать номенклатуру</x:String>
+            <x:String x:Key="main_menu_cash_register">Касса</x:String>
+            <x:String x:Key="main_menu_warehouse">Склад</x:String>
+            <x:String x:Key="main_menu_button_exit">Назад</x:String>
+
+
+            <x:String x:Key="stock_label_search">Поиск</x:String>
+            <x:String x:Key="stock_button_print_barcode">Распечатать штрих-код</x:String>
+            <x:String x:Key="stock_button_setting_printer">Настройка Принтера</x:String>
+            <x:String x:Key="stock_button_prixod">Быстрый приход</x:String>
+            <x:String x:Key="stock_button_edit">Редактирование</x:String>
+            <x:String x:Key="stock_button_delete">Списать товар</x:String>
+            <x:String x:Key="stock_button_discount">Скидка</x:String>
+            <x:String x:Key="stock_datagrid_barcode">Баркод</x:String>
+            <x:String x:Key="stock_datagrid_category">Категория</x:String>
+            <x:String x:Key="stock_datagrid_subcategory">Под-категория</x:String>
+            <x:String x:Key="stock_datagrid_brand">Бренд</x:String>
+            <x:String x:Key="stock_datagrid_name">Наименование</x:String>
+            <x:String x:Key="stock_datagrid_qty">Кол-во</x:String>
+            <x:String x:Key="stock_datagrid_piece">Кол-во шт&#x0a; в пачке</x:String>
+            <x:String x:Key="stock_datagrid_oldprice">Кол-во шт</x:String>
+            <x:String x:Key="stock_datagrid_price">Себ-мость</x:String>
+            <x:String x:Key="stock_datagrid_oldprice_piece">Себ-мость по шт</x:String>
+            <x:String x:Key="stock_datagrid_price_piece">Цена по шт</x:String>
+            <x:String x:Key="stock_datagrid_nds">НДС</x:String>
+            <x:String x:Key="stock_datagrid_discount">Скидка</x:String>
+
+
+
+            <x:String x:Key="element_shop_label">Магазин</x:String>
+
+            <x:String x:Key="element_kassa_label">Касса</x:String>
+
+            <x:String x:Key="my_message_label">Уведемления</x:String>
+
+            <x:String x:Key="userlist_label">Пользователи</x:String>
+            <x:String x:Key="userlist_button_add">Добавить</x:String>
+            <x:String x:Key="userlist_button_edit_password">Изменить пароль</x:String>
+            <x:String x:Key="userlist_button_delete">Удалить</x:String>
+            <x:String x:Key="userlist_button_edit_qrcode">Изменить     QR-code"</x:String>
+            <x:String x:Key="userlist_button_install_qrcode">Скачать    QR-code</x:String>
+            <x:String x:Key="userlist_button_install_vpnkey">Скачать         VPN ключ</x:String>
+            <x:String x:Key="userlist_datagrid_login">Логин</x:String>
+            <x:String x:Key="userlist_datagrid_status">Должность</x:String>
+            <x:String x:Key="userlist_datagrid_vpnkey">VPN ключ</x:String>
+            <x:String x:Key="userlist_datagrid_store">Магазин</x:String>
+
+            <x:String x:Key="yes">Да</x:String>
+            <x:String x:Key="no">Нет</x:String>
+            <x:String x:Key="save">Сохранить</x:String>
+
+            <x:String x:Key="message_enter_value">Введите значение</x:String>
+            <x:String x:Key="message_scan_qrcode">Отсканируйте QR Code</x:String>
+            <x:String x:Key="message_add_percentage">Чтобы добавить произвольный процент пройдите в настройки программы</x:String>
+            <x:String x:Key="message_added_tovar">Вы успешно добавили товар</x:String>
+            <x:String x:Key="message_enter_sec_unit">Выберите вторую ед. измерения</x:String>
+            <x:String x:Key="message_enter_qty">Введите значение кол-во</x:String>
+            <x:String x:Key="message_register">Чтобы зарегистрироваться перейдите по ссылке</x:String>
+
+            <x:String x:Key="stock_setting_addgood_label">Добавлене Товара</x:String>
+            <x:String x:Key="stock_setting_addgood_text">Спрашивать кол-чо при печати штрих кода</x:String>
+            <x:String x:Key="stock_setting_print_check_label">Печать чека</x:String>
+            <x:String x:Key="stock_setting_print_check_text">Автоматический распечатовать штрих код при добавление товара</x:String>
+
+            <x:String x:Key="export_goods_scan_qr_code">Отсканируйте штрих-код</x:String>
+            <x:String x:Key="export_goods_datagrid_goods_info">Перечень товаров в магазине</x:String>
+            <x:String x:Key="export_goods_datagrid_goods_header_name">Наименование</x:String>
+            <x:String x:Key="export_goods_datagrid_goods_header_qty">Кол-во</x:String>
+            <x:String x:Key="export_goods_datagrid_goods_header_qty_in_pcs">Кол-во в шт</x:String>
+            <x:String x:Key="export_goods_infoproduct_label">Информация о товаре</x:String>
+            <x:String x:Key="export_goods_infoproduct_has_qrcode">Если в вашем товаре куар-код?</x:String>
+            <x:String x:Key="export_goods_select_unit">Выберите ед. измерения для продажи товара</x:String>
+
+            <x:String x:Key="edit_good_info_good">Информация о товаре</x:String>
+            <x:String x:Key="edit_good_info_quantity">Количество на складе</x:String>
+            <x:String x:Key="edit_good_info_price">Цена товара</x:String>
+            <x:String x:Key="edit_good_info_edit">Редактирования Бренда и Кол-во</x:String>
+            <x:String x:Key="edit_good_btn_edit_price">Изменить цену ></x:String>
+
+            <x:String x:Key="create_store_msg_edit_store">Название Магазина успешно отредактировано</x:String>
+            <x:String x:Key="create_store_msg_exist_store">Магазин с таким названеим уже существует</x:String>
+            <x:String x:Key="create_store_msg_succ_add_store">Магазин успешно добавлен</x:String>
+            <x:String x:Key="create_store_msg_enter_store_name">Введите название магазина</x:String>
+            <x:String x:Key="create_store_msg_regex">В поле Название Магазина можно вводить только цифры и буквы Английского и Русского алфавитов</x:String>
+
+            <x:String x:Key="storelist_msg_tarif">Вы достигли допустимого количество магазинов по вашему тарифу.@Для добавление смените тариф.</x:String>
+            <x:String x:Key="storelist_label_inactive_stores">Неактивных магазинов</x:String>
+
+            <x:String x:Key="setting_store_label_textinfo">Введите название</x:String>
+            <x:String x:Key="inputbox_label_textinfo">Введите имя</x:String>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+</ContentPage>
